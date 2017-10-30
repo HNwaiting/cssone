@@ -1,3 +1,30 @@
 *{
     margin:0;
+    padding: 0;
+}
+
+body{
+    
+    background-color: #f2f2f2;
+    color: #999;
+}
+
+#login{
+    background-color: white;
+    width: 990px;
+    height: 445px;
+    border:1px solid #dddddd;/*实线上边框*/
+}
+.input{
+    border-color: #ddd;
+}
+
+.signup{
+    background-color: #e43e42;
+    width: 160px;
+}
+
+.float{
+    /*float:right;*/
+    margin-top: 200px;
 }
