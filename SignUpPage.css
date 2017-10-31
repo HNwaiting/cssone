@@ -38,6 +38,10 @@ input{
     height: 15px;
 }
 
+#getMessage{
+    cursor: pointer;
+}
+
 input.btn_register{
     width: 270px;
     height: 36px;
