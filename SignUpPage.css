@@ -15,13 +15,37 @@ body{
     height: 445px;
     border:1px solid #dddddd;/*实线上边框*/
 }
-.input{
-    border-color: #ddd;
+td.text_info{
+    width: 190px;
 }
 
-.signup{
-    background-color: #e43e42;
-    width: 160px;
+td.data_info{
+    widows: 270px;
+}
+
+input{
+    width:258px;
+    height: 36px;
+    border:1px solid #cccccc;
+}
+
+.width100{
+    width: 100px;
+}
+
+#chkRead{
+    width: 15px;
+    height: 15px;
+}
+
+input.btn_register{
+    width: 270px;
+    height: 36px;
+    color:#fff;
+    background-color:#E43E42;
+    border:1px solid #E4454C;
+    border-radius: 5px;
+
 }
 
 .float{

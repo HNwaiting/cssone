@@ -5,48 +5,92 @@
     <title>please sign in</title>
     <link rel="stylesheet" href="SignUpPage.css">
 </head>
-<body >
+<body>
 <table id="login">
+
     <tr>
-        <td>用户名：</td>
-        <td ><input type="text" class="input"></td>
-        <td id="username">4-20位字符，支持汉字、字母和数字组合</td>
-        <td colspan="7" class="float">手机快速注册</td>
+
+        <td class="text_info">用户名：</td>
+
+        <td class="data_info"><input type="text"/></td>
+
+        <td><span>4－20位字符，支持汉字、字母和数字组合</span></td>
+
+        <td rowspan="7" >
+            <img src="phone-bg.png"/>
+
+        </td>
+
     </tr>
+
     <tr>
+
         <td>请设置密码：</td>
-        <td ><input type="password" class="input"></td>
-        <td id="password">6-20位字符，支持汉字、字母和数字</td>
+
+        <td><input type="text"/></td>
+
+        <td><span>6－20位字符，支持汉字、字母和数字组合</span></td>
+
     </tr>
+
     <tr>
+
         <td>请确认密码：</td>
-        <td ><input type="password" class="input"></td>
-        <td id="cofpassword">请再次输入密码</td>
+
+        <td><input type="text"/></td>
+
+        <td><span>请再次输入密码</span></td>
+
     </tr>
+
     <tr>
+
         <td>验证手机：</td>
-        <td ><input type="text" class="input"></td>
-        <td id="checkphone">完成验证后，可以使用手机找回密码</td>
+
+        <td><input type="text"/></td>
+
+        <td><span>完成验证后，可以使用手机找回密码</span></td>
+
     </tr>
+
     <tr>
+
         <td>短信验证码：</td>
-        <td id="getmessage"><input type="text" class="input"><input type="button" value="获取短信验证码"></td>
-        <td id="cofmessage">请再次输入密码</td>
+
+        <td><input type="text" class="width100"/><input type="button" class="width100" value="获取短信验证码"/></td>
+
+        <td><span>请再次输入密码</span></td>
+
     </tr>
+
     <tr>
+
         <td></td>
-        <td ><input type="checkbox" id="accept" value="" class="readed">我已阅读并同意<a href="#">《京东用户注册协议》</a></input></td>
+
+        <td>
+            <input type="checkbox" id="chkRead"/>
+            <label for="chkRead">我已阅读并同意<a href="#">《京东用户注册协议》</a></label>
+
+        </td>
+
+        <td></td>
 
     </tr>
+
     <tr>
-        <td></td>
-        <td colspan="2"><input type="button" id="signup" value="立即注册" class="signup"></td>
 
+        <td></td>
+
+        <td>
+            <input type="button" value="立即注册" class="btn_register"/>
+
+        </td>
+
+        <td></td>
 
     </tr>
-
-
 
 </table>
+
 </body>
 </html>
